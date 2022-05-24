@@ -30,7 +30,7 @@ word_dic ={}
 
 for i in string:
     keys = i.split(' ')[0]
-    values = i.split(' ')[1]
+    values = int(i.split(' ')[1])
     word_dic[keys] = values
 
 
